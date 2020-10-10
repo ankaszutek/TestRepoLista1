@@ -3,6 +3,7 @@ public class Main {
 	public static int width, height, speed;
 	public static double probability;
 	public static void main(String[] args) {
+		System.out.println("check");
 		try {
 			width=Integer.parseInt(args[0]);
 			height=Integer.parseInt(args[1]);
